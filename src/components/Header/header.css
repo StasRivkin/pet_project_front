@@ -64,19 +64,19 @@
 
 .nav__icons {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 1.2rem;
 }
 
 .nav__icons span i {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
     cursor: pointer;
 }
 
 .nav__icons span img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }
 

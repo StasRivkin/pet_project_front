@@ -52,14 +52,23 @@ const Header = () => {
             </div>
 
             <div className="nav__icons">
-              <span className='fav__icon'> <i className="ri-heart-3-line"></i> <span className="badge">1</span> </span>
-              <span className='cart__icon'> <i className="ri-shopping-bag-3-line"></i> <span className="badge">1</span> </span>
-
-              <span> <motion.img whileTap={{ scale: 1.2 }} src={user_icon} alt="user_icon" /></span>
+              <span className='fav__icon'>
+                <i className="ri-heart-3-line"></i>
+                <span className="badge">1</span>
+              </span>
+              <span className='cart__icon'>
+                <i className="ri-shopping-bag-3-line"></i>
+                <span className="badge">1</span>
+              </span>
+              <span>
+                <motion.img whileTap={{ scale: 1.2 }} src={user_icon} alt="user_icon" />
+              </span>
             </div>
 
             <div className="mobile__menu">
-              <span><i className="ri-menu-line"></i></span>
+              <span>
+                <i className="ri-menu-line"></i>
+              </span>
             </div>
 
           </div>
